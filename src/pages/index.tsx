@@ -107,16 +107,17 @@ useEffect(() => {
                     
                 </ul>                
             </section>
-        </div>
-        <section id="button">
-            <div>
+            <section id="button">
+            <div class="form-row justify-content-center">
             {hasMore ? (
                 <button id="loadMore" onClick={handleLoadMore}>Cargar más pokemón</button>
             ) : (
                 <p>No hay más pokemones</p>
             )}
             </div>
-        </section>        
+        </section> 
+        </div>
+               
     </body>
 )
 }

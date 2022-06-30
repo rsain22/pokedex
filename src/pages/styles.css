@@ -388,13 +388,18 @@ h5 {
         -webkit-text-size-adjust: 100%;
         margin-left: 42.5%;
         position: relative;
-        
       }
 
 #button {
     background: #fff url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
     float: left;
+    /* margin-right: -100%;
+    /* width: 84.1%; */
+    /* margin-left: 7.95%; */
+    float: left; 
     margin-right: -100%;
-    width: 84.1%;
-    margin-left: 7.95%;
+    width: 85.49%;
+    margin-left: 7.2525%;
+    max-width: 1280px;
+
 }
