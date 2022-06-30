@@ -1,0 +1,400 @@
+body {
+    background: #424242 url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+    font-family: "Flexo-Regular",arial,sans-serif;
+    font-size: 16px;
+    color: #fff;
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+.container {
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    max-width: 1280px;
+    overflow: hidden;
+    position: relative;
+}
+
+.section.overflow-visible {
+    *zoom: 1;
+    overflow: visible;
+}
+
+.pokedex-results {
+    position: relative;
+    height: auto;
+}
+
+.section {
+    padding: 1em 0;
+    background: #fff url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+}
+
+.content-wrapper, .section {
+    background: transparent url(https://assets.pokemon.com/static2/_ui/img/chrome/content_bg.png) left top;
+    background-size: 100% 1px;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.overflow-visible {
+    overflow: visible;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+.pokedex-results .results {
+    float: left;
+    margin-right: -100%;
+    width: 85.49%;
+    margin-left: 7.2525%;
+    background: #fff
+}
+
+ol, ul {
+    list-style: none;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+.pokedex-results .results li {
+    width: 48.4375%;
+}
+
+.pokedex-results .results li {
+    display: block;
+    float: left;
+    position: relative;
+    margin: 0 .78125% 50px;
+    width: 23.4375%;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    
+}
+
+.pokedex-results .results li figure {
+    background: #F2F2F2;
+    float: left;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 100%;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.pokedex-results .results li figure img {
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+.pokedex-results .results li .pokemon-info {
+    padding-left: 3.62625%;
+}
+
+.pokedex-results .results li .pokemon-info {
+    clear: both;
+    top: -5px;
+    padding-left: 7.2525%;
+}
+
+.pokedex-results .results li .pokemon-info .id {
+    font-family: "Flexo-Bold",arial,sans-serif;
+    color: #919191;
+    font-size: 80%;
+    padding-top: 2px;
+}
+
+p {
+    color: #919191;
+    font-family: "Roboto",arial,sans-serif;
+    font-size: 100%;
+    font-weight: 500;
+    line-height: 125%;
+    margin: 0.5em 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.pokedex-results .results li .pokemon-info h5 {
+    font-size: 115%;
+}
+
+.pokedex-results .results li .pokemon-info h5 {
+    font-family: "Flexo-Demi",arial,sans-serif;
+    color: #313131;
+    text-transform: capitalize;
+    font-size: 145%;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+h3, h4, h5, h6 {
+    font-size: 125%;
+    line-height: 125%;
+    text-transform: none;
+    margin: 0.5em 0;
+    font-family: "Flexo-Medium",arial,sans-serif;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.pokedex-results .results li .pokemon-info .abilities span {
+    font-family: "Flexo-Medium",arial,sans-serif;
+    border-radius: 3px;
+    line-height: 18px;
+    max-width: 110px;
+    margin: 0 1.5625% 0 0;
+    width: 38.4375%;
+    float: left;
+    text-transform: capitalize;
+    font-size: 11px;
+    text-align: center;
+}
+
+.background-color-bug{
+    background:-webkit-linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
+    background:-ms-linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
+    background:-moz-linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
+    background:-o-linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
+    background:linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
+    background-color:#729f3f;color:#fff}
+    
+.background-color-dark{
+    background:-webkit-linear-gradient(180deg, #707070 50%, #707070 50%);
+    background:-ms-linear-gradient(180deg, #707070 50%, #707070 50%);
+    background:-moz-linear-gradient(180deg, #707070 50%, #707070 50%);
+    background:-o-linear-gradient(180deg, #707070 50%, #707070 50%);
+    background:linear-gradient(180deg, #707070 50%, #707070 50%);
+    background-color:#707070;color:#fff}
+    
+.background-color-dragon{
+    background:-webkit-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+    background:-ms-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+    background:-moz-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+    background:-o-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+    background:linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+    background-color:#53a4cf;color:#fff}
+    
+.background-color-electric{
+    background:-webkit-linear-gradient(180deg, #eed535 50%, #eed535 50%);
+    background:-ms-linear-gradient(180deg, #eed535 50%, #eed535 50%);
+    background:-moz-linear-gradient(180deg, #eed535 50%, #eed535 50%);
+    background:-o-linear-gradient(180deg, #eed535 50%, #eed535 50%);
+    background:linear-gradient(180deg, #eed535 50%, #eed535 50%);
+    background-color:#eed535;color:#212121}
+    
+.background-color-fairy{
+    background:-webkit-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%);
+    background:-ms-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%);
+    background:-moz-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%);
+    background:-o-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%);
+    background:linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%);
+    background-color:#fdb9e9;color:#212121}
+  
+.background-color-fighting{
+    background:-webkit-linear-gradient(180deg, #d56723 50%, #d56723 50%);
+    background:-ms-linear-gradient(180deg, #d56723 50%, #d56723 50%);
+    background:-moz-linear-gradient(180deg, #d56723 50%, #d56723 50%);
+    background:-o-linear-gradient(180deg, #d56723 50%, #d56723 50%);
+    background:linear-gradient(180deg, #d56723 50%, #d56723 50%);
+    background-color:#d56723;color:#fff}
+    
+.background-color-fire{
+    background:-webkit-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%);
+    background:-ms-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%);
+    background:-moz-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%);
+    background:-o-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%);
+    background:linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%);
+    background-color:#fd7d24;color:#fff}
+  
+.background-color-flying{
+    background:-webkit-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+    background:-ms-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+    background:-moz-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+    background:-o-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+    background:linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+    background-color:#3dc7ef;color:#212121}
+    
+.background-color-ghost{
+    background:-webkit-linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%);
+    background:-ms-linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%);
+    background:-moz-linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%);
+    background:-o-linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%);
+    background:linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%);
+    background-color:#7b62a3;color:#fff}
+    
+.background-color-grass{
+    background:-webkit-linear-gradient(180deg, #9bcc50 50%, #9bcc50 50%);
+    background:-ms-linear-gradient(180deg, #9bcc50 50%, #9bcc50 50%);
+    background:-moz-linear-gradient(180deg, #9bcc50 50%, #9bcc50 50%);
+    background:-o-linear-gradient(180deg, #9bcc50 50%, #9bcc50 50%);
+    background:linear-gradient(180deg, #9bcc50 50%, #9bcc50 50%);
+    background-color:#9bcc50;color:#212121}
+    
+.background-color-ground{
+    background:-webkit-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+    background:-ms-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+    background:-moz-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+    background:-o-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+    background:linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+    background-color:#f7de3f;color:#212121}
+    
+.background-color-ice{
+    background:-webkit-linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%);
+    background:-ms-linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%);
+    background:-moz-linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%);
+    background:-o-linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%);
+    background:linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%);
+    background-color:#51c4e7;color:#212121}
+    
+.background-color-normal{
+    background:-webkit-linear-gradient(180deg, #a4acaf 50%, #a4acaf 50%);
+    background:-ms-linear-gradient(180deg, #a4acaf 50%, #a4acaf 50%);
+    background:-moz-linear-gradient(180deg, #a4acaf 50%, #a4acaf 50%);
+    background:-o-linear-gradient(180deg, #a4acaf 50%, #a4acaf 50%);
+    background:linear-gradient(180deg, #a4acaf 50%, #a4acaf 50%);
+    background-color:#a4acaf;color:#212121}
+    
+.background-color-poison{
+    background:-webkit-linear-gradient(180deg, #b97fc9 50%, #b97fc9 50%);
+    background:-ms-linear-gradient(180deg, #b97fc9 50%, #b97fc9 50%);
+    background:-moz-linear-gradient(180deg, #b97fc9 50%, #b97fc9 50%);
+    background:-o-linear-gradient(180deg, #b97fc9 50%, #b97fc9 50%);
+    background:linear-gradient(180deg, #b97fc9 50%, #b97fc9 50%);
+    background-color:#b97fc9;color:#fff}
+    
+.background-color-psychic{
+    background:-webkit-linear-gradient(180deg, #f366b9 50%, #f366b9 50%);
+    background:-ms-linear-gradient(180deg, #f366b9 50%, #f366b9 50%);
+    background:-moz-linear-gradient(180deg, #f366b9 50%, #f366b9 50%);
+    background:-o-linear-gradient(180deg, #f366b9 50%, #f366b9 50%);
+    background:linear-gradient(180deg, #f366b9 50%, #f366b9 50%);
+    background-color:#f366b9;color:#fff}
+    
+.background-color-rock{
+    background:-webkit-linear-gradient(180deg, #a38c21 50%, #a38c21 50%);
+    background:-ms-linear-gradient(180deg, #a38c21 50%, #a38c21 50%);
+    background:-moz-linear-gradient(180deg, #a38c21 50%, #a38c21 50%);
+    background:-o-linear-gradient(180deg, #a38c21 50%, #a38c21 50%);
+    background:linear-gradient(180deg, #a38c21 50%, #a38c21 50%);
+    background-color:#a38c21;color:#fff}
+    
+.background-color-steel{
+    background:-webkit-linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%);
+    background:-ms-linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%);
+    background:-moz-linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%);
+    background:-o-linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%);
+    background:linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%);
+    background-color:#9eb7b8;color:#212121}
+  
+.background-color-water{
+    background:-webkit-linear-gradient(180deg, #4592c4 50%, #4592c4 50%);
+    background:-ms-linear-gradient(180deg, #4592c4 50%, #4592c4 50%);
+    background:-moz-linear-gradient(180deg, #4592c4 50%, #4592c4 50%);
+    background:-o-linear-gradient(180deg, #4592c4 50%, #4592c4 50%);
+    background:linear-gradient(180deg, #4592c4 50%, #4592c4 50%);
+    background-color:#4592c4;color:#fff}
+  
+#loadMore {
+        display: inline-block;
+        margin: 0 auto;
+        font-size: 100%;
+        font-family: "Flexo-Demi",arial,sans-serif;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        line-height: 125%;
+        margin: 0%;
+        padding: 0.75em 1.25em 0.675em;
+        vertical-align: top;
+        text-align: center;
+        text-transform: none;
+        background-color: #30a7d7;
+        color: #fff;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        margin-left: 42.5%;
+        position: relative;
+        
+      }
+
+#button {
+    background: #fff url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+    float: left;
+    margin-right: -100%;
+    width: 84.1%;
+    margin-left: 7.95%;
+}
