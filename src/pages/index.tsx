@@ -104,20 +104,25 @@ useEffect(() => {
                     </li>                          
                     ))
                     }
-                    
+                    <div>
+                    {hasMore ? (
+                        <button id="loadMore" onClick={handleLoadMore}>Cargar más pokemón</button>
+                    ) : (
+                            <p>No hay más pokemones</p>
+                    )}
+                    </div>
                 </ul>                
             </section>
-            <section id="button">
-            <div class="form-row justify-content-center">
+        </div>
+        {/* <section id="button">
+            <div>
             {hasMore ? (
                 <button id="loadMore" onClick={handleLoadMore}>Cargar más pokemón</button>
             ) : (
                 <p>No hay más pokemones</p>
             )}
             </div>
-        </section> 
-        </div>
-               
+        </section>         */}
     </body>
 )
 }
